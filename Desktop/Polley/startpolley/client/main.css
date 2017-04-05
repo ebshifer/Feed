@@ -1,0 +1,250 @@
+/* CSS declarations go here */
+.Logo {
+  /*padding-left: 800px;*/
+  position: fixed;
+  left: 50%;
+}
+
+.item {
+  font-size: 15px;
+}
+
+h1 {
+  padding-top: 100px;
+  /*padding-left: 150px;*/
+  text-align: center;
+  color: #c1c1c1;
+}
+
+.aboutpolley {
+  width: 800px;
+  border: 1px solid #c1c1c1;
+  margin: 0 auto;
+  padding: 50px 50px 50px 50px;
+}
+
+.aboutpolley > p {
+  color: #c1c1c1;
+  font-size: 25px;
+  text-align: center;
+  /*max-width: 750px;*/
+}
+
+.poller1 {
+  width: 450px;
+  border: 1px solid #c1c1c1;
+  margin: 20px 10px;
+  padding: 0 5px;
+  float: left;
+}
+
+.poller1 > p {
+  font-size: 20px;
+  max-width: 400px;
+}
+
+.pollers {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #c1c1c1;
+  color: #000000;
+  padding: 10px 0;
+  margin: 0 -6px;
+}
+
+.pollerimage {
+  max-width: 200px;
+  margin: 15px 0 0 0;
+}
+
+.pollersheading {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 25px;
+  color: #c1c1c1;
+  margin: 0 0 50px 0;
+}
+
+.ui.dimmer
+{
+    background: #ffffff !important;
+}
+
+.pusher {
+  padding-top: 500px;
+}
+
+.shape {
+  padding-left: 825px;
+  /*width: 500px;
+  height: 500px;*/
+}
+
+.ui.button {
+  margin-top: 250px;
+  margin-left: 600px;
+
+}
+
+/*.sides {
+  width: 500px;
+  height: 500px;
+}*/
+
+.side{
+  width: 500px;
+  height: 500px;
+}
+
+/*POLL CSS*/
+.form-group {
+  padding-top: -300px;
+  padding-right: 800px;
+  font-size:25px;
+}
+
+#pinkcircle {
+  position: absolute;
+  top: 150px;
+  left: -100px;
+  width: 200px;
+  height: 200px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  background: deeppink;
+
+  /*transition-property: top;
+  transition-duration: 2s;*/
+}
+
+#greencircle {
+  position: absolute;
+  top: 150px;
+  right: -100px;
+  width: 200px;
+  height: 200px;
+
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  background: lightgreen;
+
+}
+
+#greentext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+
+#pinktext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+
+.leftLine {
+  position: absolute;
+  top: 99px;
+  left: -89px;
+  width:5px;
+  height:150px;
+  background: black;
+  transition-property: height;
+  transition-duration: 2s;
+}
+
+/*.leftLine:hover {
+    height: 700px;
+}*/
+
+.rightLine {
+  position: absolute;
+  top: 99px;
+  left: 121px;
+  width:5px;
+  height:150px;
+  background: black;
+}
+
+.rightSlant {
+  position: absolute;
+  top: 25px;
+  left: 77px;
+  width:5px;
+  height:75px;
+  background: black;
+  -webkit-transform: skew(50deg);
+  -moz-transform: skew(50deg);
+  -o-transform: skew(50deg);
+  transform: skew(50deg);
+}
+
+.blackcircle {
+  position: absolute;
+  top: 200px;
+  left: 1000px;
+  width: 37px;
+  height: 37px;
+  -webkit-border-radius: 37px;
+  -moz-border-radius: 37px;
+  border-radius: 37px;
+  background: black;
+}
+
+.leftSlant {
+  position: absolute;
+  top: 25px;
+  left: -45px;
+  width:5px;
+  height:75px;
+  background: black;
+  -webkit-transform: skew(175deg);
+  -moz-transform: skew(175deg);
+  -o-transform: skew(175deg);
+  transform: skew(1750deg);
+}
+
+form {
+  padding-top: 200px;
+  padding-left: 400px;
+  padding-right: 400px;
+}
+
+.createbutton {
+  padding-left: 400px;
+  padding-right: 400px;
+}
+
+/*MESSAGES CSS*/
+.chatBox {
+  background-color: lightgreen;
+}
+
+#chat-message {
+  width: 500px;
+  height: 50px;
+}
+
+#messages {
+  background: #569617;
+  width: 1150px;
+  height: 300px;
+  border: 1px solid rgb(230, 230, 230);
+  margin: 0px 0px 10px 0px;
+}
+
+.ui.feed {
+  padding-left: 800px;
+  font-size: 24px;
+}
