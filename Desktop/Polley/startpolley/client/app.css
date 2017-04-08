@@ -1,0 +1,26 @@
+body	{
+	padding-top:50px;
+}
+.polls 	{
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:center;
+}
+.poll 	{
+	width:40%;
+	margin:20px;
+}
+
+.sizepoll {
+	width: 1400px;
+}
+.content {
+	padding-bottom: 20px;
+}
+/*.userpoll {
+	width:500%;
+}
+
+.card {
+	width:1000%;
+}*/

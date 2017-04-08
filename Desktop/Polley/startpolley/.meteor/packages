@@ -23,3 +23,13 @@ less
 juliancwirko:postcss
 iron:router
 twbs:bootstrap
+socialize:feed
+accounts-facebook
+accounts-twitter
+accounts-google
+accounts-ui
+accounts-password
+meteor-platform
+practicalmeteor:mocha             # A package for writing and running your meteor app and package tests with mocha
+johanbrook:publication-collector  # Test a Meteor publication by collecting its output
+kadira:blaze-layout     # Layout manager for blaze (works well with FlowRouter)

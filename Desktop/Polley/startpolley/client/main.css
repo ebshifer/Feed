@@ -8,7 +8,9 @@
 .item {
   font-size: 15px;
 }
-
+.feedside {
+  padding-left: 400px;
+}
 h1 {
   padding-top: 100px;
   /*padding-left: 150px;*/
@@ -102,11 +104,33 @@ h2 {
 }
 
 /*POLL CSS*/
-.form-group {
+
+/*.question-group   {
+  margin-bottom:20px;
+  background:#EEE;
+  padding:20px;
+}
+.question-group   {
+  font-size:18px;
+}*/
+
+/*.btn-success{
+	background: #ff4e9c;
+	border-color: #ff4e9c;
+}
+
+.btn-sucess:hover {
+	background: #ff4e9c;
+
+
+}*/
+
+/*.form-group {
   padding-top: -300px;
   padding-right: 800px;
   font-size:25px;
-}
+}*/
+
 
 #pinkcircle {
   position: absolute;
@@ -215,10 +239,10 @@ h2 {
   transform: skew(1750deg);
 }
 
-form {
+.container {
   padding-top: 200px;
-  padding-left: 400px;
-  padding-right: 400px;
+  /*padding-left: 400px;
+  padding-right: 400px;*/
 }
 
 .createbutton {
